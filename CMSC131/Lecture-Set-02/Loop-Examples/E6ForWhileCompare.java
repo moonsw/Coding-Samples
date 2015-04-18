@@ -23,7 +23,7 @@ public class E6ForWhileCompare {
       System.out.println("counting at: " + cur);
     }
     
-    // Uncomment the next line to see ther error
+    // Uncomment the next line to see the error
     // System.out.println("I'm done; cur = " + cur);
     
     for (int cur = END; cur >= START; cur = cur - 1) {
