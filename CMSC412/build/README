@@ -1,0 +1,7 @@
+GEEKOS BUILD DIRECTORY:
+
+The Build Directory of GeekOS has makefiles for starting QEMU with GeekOS and
+user programs. It's subdirectories (which can be initially empty) holds object
+and executable modules. In particular, there will be two disk images: diskc,
+containing a PFAT filesystem with the GeekOS image and user programs; and diskd,
+initially raw and empty.
