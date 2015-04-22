@@ -1,0 +1,4 @@
+INCLUDE/LIBC DIRECTORY:
+
+This subdirectory of the LIBC directory contains all of the header files for the user-mode
+space code.
