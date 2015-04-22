@@ -24,9 +24,9 @@ const char *Get_Error_String(int errno);
 #define assert(exp)
 do {
   if (!(exp)) {
-	  extern int Exit(int);
-	  Print("\x1b[1;37;41m", "Failed assertion: %s: at %s, line %d\x1B[37;40m\n", #exp, __FILE__, __LINE__);
-	  Exit(1);
+    extern int Exit(int);
+    Print("\x1b[1;37;41m", "Failed assertion: %s: at %s, line %d\x1B[37;40m\n", #exp, __FILE__, __LINE__);
+    Exit(1);
   }
 } while (0)
 
